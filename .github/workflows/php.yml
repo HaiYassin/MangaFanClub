@@ -31,6 +31,7 @@ jobs:
           restore-keys: ${{ runner.os }}-composer-
       - name: Install Composer dependencies
         run: |
+          composer require ocramius/proxy-manager" 2.7.0
           composer install --no-progress --prefer-dist --optimize-autoloader
       - name: Run Tests
         run: php bin/phpunit --coverage-text
