@@ -1,7 +1,7 @@
 {
   "devDependencies": {
     "@babel/preset-react": "^7.10.4",
-    "axios": "^0.20.0",
+    "axios": "^0.21.1",
     "eslint": "^7.9.0"
   },
   "dependencies": {
